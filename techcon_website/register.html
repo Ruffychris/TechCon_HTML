@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register for TechCon 2024</title>
+</head>
+<body>
+
+    <header>
+        <h1>Register for TechCon 2024</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="registration">
+            <h2>Conference Registration Form</h2>
+            <form action="#" method="post">
+
+                <!-- Name -->
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br><br>
+
+                <!-- Email -->
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <!-- Password -->
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Enter a password" required minlength="6"><br><br>
+
+                <label for="confirm-password">Confirm Password:</label><br>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Re-enter your password" required minlength="6"><br><br>
+
+                <!-- Terms and Conditions -->
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the <a href="#">Terms and Conditions</a>.</label><br><br>
+
+          
+                <button type="submit">Register Now</button>
+
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 TechCon 2024. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
